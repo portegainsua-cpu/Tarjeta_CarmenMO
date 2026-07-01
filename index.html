@@ -7,7 +7,8 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0b132b 0%, #1c2541 100%);
+            /* Fondo degradado en un tono burdeos/marrón noche muy oscuro y elegante */
+            background: linear-gradient(135deg, #1a050d 0%, #2c0e18 100%);
             color: #334155;
             display: flex;
             justify-content: center;
@@ -21,7 +22,7 @@
             background: #ffffff;
             padding: 40px 30px;
             border-radius: 16px;
-            box-shadow: 0 25px 50px rgba(0,0,0,0.4);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
             text-align: center;
             max-width: 360px;
             width: 100%;
@@ -39,7 +40,7 @@
         h1 {
             font-size: 24px;
             margin: 10px 0 5px 0;
-            color: #0b132b;
+            color: #4a0e17; /* Nombre en burdeos corporativo oscuro */
             font-weight: 700;
             letter-spacing: -0.5px;
         }
@@ -54,7 +55,7 @@
         .company {
             font-size: 15px;
             font-weight: 600;
-            color: #1c2541;
+            color: #581822; /* Burdeos medio para la empresa */
             margin-bottom: 20px;
         }
         .description {
@@ -66,7 +67,7 @@
         }
         .btn {
             display: block;
-            background-color: #1c2541; /* Botón azul corporativo oscuro */
+            background-color: #4a0e17; /* Botón burdeos elegante */
             color: white;
             padding: 13px;
             margin: 12px 0;
@@ -78,13 +79,13 @@
             transition: all 0.3s ease;
         }
         .btn:hover {
-            background-color: #0b132b;
+            background-color: #32080e;
             transform: translateY(-2px);
-            box-shadow: 0 5px 10px rgba(11, 19, 43, 0.2);
+            box-shadow: 0 5px 10px rgba(74, 14, 23, 0.2);
         }
         .btn-highlight {
             background-color: #d4af37; /* Botón dorado destacado */
-            color: #0b132b;
+            color: #1a050d;
             font-weight: 700;
         }
         .btn-highlight:hover {
@@ -96,7 +97,7 @@
 <body>
 
     <div class="card">
-        <!-- Cargamos la foto de perfil que subas a este repositorio -->
+        <!-- Revisa si tu foto quedó finalmente como perfil.jpg o perfil.jpeg -->
         <img src="perfil.jpg" alt="Carmen Martín Oliveira" class="profile-img">
         
         <h1>Carmen Martín Oliveira</h1>
@@ -105,7 +106,7 @@
         
         <p class="description">Apasionada del entorno corporativo y el desarrollo empresarial. Especializada en la gestión estratégica, operativa y comercial de grandes superficies retail.</p>
         
-        <!-- Líneas 99 y 100 de contacto directo -->
+        <!-- Líneas de contacto directo -->
         <a href="https://linkedin.com/in/carmenmartinoliveira" target="_blank" class="btn">Conectar en LinkedIn</a>
         <a href="mailto:carmen.mo26@gmail.com" class="btn btn-highlight">Escríbeme por Email</a>
     </div>
